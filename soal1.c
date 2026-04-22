@@ -37,7 +37,7 @@ void sorting(float *arr[max_len], int len, float *SUM, float *AVG, float *Max, f
     printf("SUM %.0f\n", *SUM);
     printf("AVG %.2f\n", *AVG);
     printf("MAX %.0f\n", *Max);
-    printf("IDX %.0f\n", *IDX );
+    printf("IDX %.0f", *IDX );
     
 }
 
