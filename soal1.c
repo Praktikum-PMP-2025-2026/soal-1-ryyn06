@@ -20,9 +20,9 @@ void sorting(float *arr[max_len], int len, float *SUM, float *AVG, float *Max, f
         
     }
 
-    *SUM = 0;
+    SUM = 0;
 
-    for (size_t i = 0; i < len; i++)
+    for (int i = 0; i < len; i++)
     {
         *SUM += *arr[i];
     }
