@@ -20,7 +20,7 @@ void sorting(float *arr[max_len], int len, float *SUM, float *AVG, float *Max, f
         
     }
 
-    SUM = 0;
+    *SUM = 0;
 
     for (int i = 0; i < len; i++)
     {
@@ -54,6 +54,7 @@ int main(){
         
         ptr[i] = &arr[i];
     }
+    printf("\n");
 
     sorting(ptr, len, &SUM, &AVG, &MAX, &IDX);
 
