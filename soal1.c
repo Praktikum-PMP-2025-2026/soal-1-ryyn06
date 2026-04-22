@@ -5,9 +5,9 @@ void sorting(float *arr[max_len], int len, float *SUM, float *AVG, float *Max, f
     //menggunakan bubble sort
 
     float temp;
-    for (size_t i = 0; i < len; i++)
+    for (int i = 0; i < len; i++)
     {
-        for (size_t j = 0; j < len-i-1 ; j++)
+        for (int j = 0; j < len-i-1 ; j++)
         {
             if ((*arr[j] > (*arr[j+1])))
             {
